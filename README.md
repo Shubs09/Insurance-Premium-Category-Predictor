@@ -40,7 +40,7 @@ cd insurance-premium-predictor
 ### Step 2: Create Virtual Environment
 python -m venv venv
 venv\Scripts\activate     # On Windows
-# OR
+### OR
 source venv/bin/activate  # On Mac/Linux
 
 ### Step 3: Install Dependencies
