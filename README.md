@@ -36,21 +36,28 @@ git clone https://github.com/Shubs09/insurance-premium-predictor.git
 cd insurance-premium-predictor
 ```
 
-
 ### Step 2: Create Virtual Environment
+```bash
 python -m venv venv
-venv\Scripts\activate     # On Windows
-### OR
-source venv/bin/activate  # On Mac/Linux
+venv\Scripts\activate       # On Windows
+# OR
+source venv/bin/activate    # On Mac/Linux
+```
 
 ### Step 3: Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
 ### Step 4: Run FastAPI
+```bash
 uvicorn main:app --reload
+```
 
 ### Step 5: Run Streamlit
+```bash
 streamlit run frontend.py
+```
 
 
 
@@ -59,6 +66,7 @@ streamlit run frontend.py
 
 ### 🏠 App Homepage
 ![App Homepage](screenshots/homepage.png)
+
 
 ### 📊 Prediction Result Example
 ![Prediction Result](screenshots/result.png)
