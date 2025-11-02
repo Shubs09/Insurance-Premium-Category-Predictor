@@ -2,7 +2,7 @@
 
 ## 📌 About the Project
 This project predicts the **insurance premium category** (Low / Medium / High) based on user details such as age, BMI, number of children, smoking status, and region.  
-It is built using **Machine Learning (Decision Tree Regressor)** with a **FastAPI backend** and **Streamlit frontend**.
+It is built using **Machine Learning (Random Forest Classifier)** with a **FastAPI backend** and **Streamlit frontend**.
 
 ---
 
@@ -34,11 +34,14 @@ It is built using **Machine Learning (Decision Tree Regressor)** with a **FastAP
 ```bash
 git clone https://github.com/Shubs09/insurance-premium-predictor.git
 cd insurance-premium-predictor
+```
 
 
 ### Step 2: Create Virtual Environment
 python -m venv venv
 venv\Scripts\activate     # On Windows
+# OR
+source venv/bin/activate  # On Mac/Linux
 
 ### Step 3: Install Dependencies
 pip install -r requirements.txt
@@ -52,10 +55,10 @@ streamlit run frontend.py
 
 
 ## 📸 Project Screenshots
---------------------------
+
 
 ### 🏠 App Homepage
-![App Homepage](myenv/screenshots/homepage.png)
+![App Homepage](screenshots/homepage.png)
 
 ### 📊 Prediction Result Example
-![Prediction Result](myenv/screenshots/result.png)
+![Prediction Result](screenshots/result.png)
